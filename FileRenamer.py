@@ -1,12 +1,11 @@
 # https://pynative.com/python-rename-file/
-# ngl, some ChatGPT was also used cuz I don't know everything
 import os
 
 # Displays a menu listing all the items in the folder
 def display_menu(folder_path):
     
     divider()
-    print("Menu:")
+    print("File Menu:")
     divider()
 
     # Lists everything in the specified folder
