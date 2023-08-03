@@ -1,12 +1,12 @@
 # https://pynative.com/python-rename-file/
-# ngl, some ChatGPT was also used cuz I don't know everything
+# Partial credit to ChatGPT
 import os
 
 # Displays a menu listing all the items in the folder
 def display_menu(folder_path):
     
     divider()
-    print("Menu:")
+    print("File Menu:")
     divider()
 
     # Lists everything in the specified folder
@@ -37,7 +37,7 @@ def rename_file(folder_path, old_name, new_name):
 def divider():
     print("---------------")
 
-# Main function pog
+# Main method
 def main():
     
     # Folder path where the file is located - Replace with other folder paths if you want to rename files elsewhere
